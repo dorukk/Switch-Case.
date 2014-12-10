@@ -24,3 +24,25 @@
                 default: Console.Write("Its not a sex !"); break;
             }
             Console.ReadKey();
+            
+            -------->Months
+               Console.Write("Which month are you here ?");
+            string month = Convert.ToString(Console.ReadLine());
+            switch (month)
+            {
+                case("December"):Console.Write("You are in winter !");break;
+                    case("January"):Console.Write("You are in winter !");break;
+                    case("February"):Console.Write("You are in winter !");break;
+                case("March"):Console.Write("You are in spring !");break;
+                    case("April"):Console.Write("You are in spring !");break;
+                    case("May"):Console.Write("You are in spring !");break;
+                case("June"):Console.Write("You are in summer !");break;
+                    case("July"):Console.Write("You are in summer!");break;
+                    case("August"):Console.Write("You are in summer !");break;
+                case("September"):Console.Write("You are in autumn !");break;
+                    case("October"):Console.Write("You are in autumn !");break;
+                    case("November"):Console.Write("You are in autumn !");break;
+
+                default :Console.Write("Wrong Month");break;
+            }
+
