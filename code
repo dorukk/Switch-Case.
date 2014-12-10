@@ -49,4 +49,20 @@
 
                 default :Console.Write("Wrong Month");break;
             }
+------------->Operations
+            Console.Write("Enter your first number !");
+            double first = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter your second number !");
+            double second = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Select your operator 1)+ 2)- 3)* 4)/");
+            char opt =Convert.ToChar(Console.ReadLine());
 
+            switch (opt)
+            {
+                case ('+'): Console.Write(first + second);break;
+                case('-'):Console.Write(first-second);break;
+                case('*'):Console.Write(first*second);break;
+                case('/'):Console.Write(first/second);break;
+                default:Console.Write("Wrong proccess");break;
+            }
+            Console.ReadKey();
