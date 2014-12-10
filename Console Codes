@@ -28,7 +28,7 @@
             }
             Console.ReadKey();
             
-            -------->Months
+ -------->Months
                Console.Write("Which month are you here ?");
             string month = Convert.ToString(Console.ReadLine());
             ay=ay.ToLower();
