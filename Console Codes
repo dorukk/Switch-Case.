@@ -66,3 +66,42 @@
                 default:Console.Write("Wrong proccess");break;
             }
             Console.ReadKey();
+---------->Number To String(Turkish)
+string onlarcumle;
+            string birlercumle;
+
+            Console.Write("Bir Sayi Giriniz ! ");
+            int sayi = Convert.ToInt32(Console.ReadLine());
+
+            int onlar = sayi / 10;
+            int birler = sayi % 10;
+
+            switch (onlar)
+            {
+                case (1): onlarcumle = "on"; break;
+                case (2): onlarcumle = "yirmi"; break;
+                case (3): onlarcumle = "otuz"; break;
+                case (4): onlarcumle = "kirk"; break;
+                case (5): onlarcumle = "elli"; break;
+                case (6): onlarcumle = "altmis"; break;
+                case (7): onlarcumle = "yetmis"; break;
+                case (8): onlarcumle = "seksen"; break;
+                case (9): onlarcumle = "doksan"; break;
+                default: onlarcumle= "";break;
+            }
+
+            switch (birler)
+            {
+                case (1): birlercumle = "bir"; break;
+                case (2): birlercumle = "iki"; break;
+                case (3): birlercumle = "uc"; break;
+                case (4): birlercumle = "dort"; break;
+                case (5): birlercumle = "bes"; break;
+                case (6): birlercumle = "alti"; break;
+                case (7): birlercumle = "yedi"; break;
+                case (8): birlercumle = "sekiz"; break;
+                case (9): birlercumle = "dokuz"; break;
+                default: birlercumle = ""; break;
+            }
+            Console.Write(onlarcumle + birlercumle);
+            Console.ReadKey();
