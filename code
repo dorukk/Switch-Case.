@@ -1,4 +1,5 @@
-/* Console.Write("Enter A Day !");
+-------->Days
+            Console.Write("Enter A Day !");
             int gun = Convert.ToInt32(Console.ReadLine());
 
             switch (gun)
@@ -11,7 +12,9 @@
                 case (6): Console.Write("Saturday"); break;
                 case (7): Console.Write("Sunday"); break;
                 default: Console.Write("Thats not a day like this"); break;
-            }*/
+            }
+            
+---------->Male&Female            
             Console.Write("Select your Sex !");
             char sex = Convert.ToChar(Console.ReadLine());
 
@@ -28,6 +31,7 @@
             -------->Months
                Console.Write("Which month are you here ?");
             string month = Convert.ToString(Console.ReadLine());
+            ay=ay.ToLower();
             switch (month)
             {
                 case("December"):Console.Write("You are in winter !");break;
